@@ -37,23 +37,20 @@ This repository contains a Node.js tool for parsing and managing emails from Gma
   - Response:
     - Upon successful exchange of code for tokens, redirects to a success page.
    
-    - 
 - **POST /email/process**
   - Processes incoming emails from connected accounts..
   - Automatically categorizes and responds to emails based on content.
 
 - ** labelEmail(emailContent: string)**
-- 
-      - Description: Labels the provided email content with a relevant category.
+    - Description: Labels the provided email content with a relevant category.
   
   Parameters:
   
       - emailContent: String containing the email content to be analyzed.
         Returns: A string representing the label (Interested, Not Interested, More information).
   
--** generateResponse(label: string, emailContent: string)**
-
-      - Description: Generates a response based on the labeled category and original email content.
+- ** generateResponse(label: string, emailContent: string)**
+    - Description: Generates a response based on the labeled category and original email content.
       
   Parameters:
   
