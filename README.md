@@ -63,10 +63,9 @@ This repository contains a Node.js tool for parsing and managing emails from Gma
 
 - **Description**: Provides an overview of the project, its purpose, and key features.
 - **Setup**: Guides users through cloning the repository, installing dependencies, setting up environment variables, and starting the application.
-- **Folder Structure**: Illustrates the project's organization, indicating where different components (controllers, models, routes, services) are located.
+- **Folder Structure**: Illustrates the project's organization, indicating where different components (controllers, routes, services, utils) are located.
 - **`.gitignore`**: Includes typical entries to ignore certain files and directories from version control, enhancing repository cleanliness.
 - **Contributing**: Encourages contributions and explains how users can participate in the project.
-- **License**: Specifies the project's licensing terms.
 
 Replace placeholders (`your_redis_password`, `your_google_client_id`, `your_google_client_secret`,`your_google_redirect_uri`,`your_google_refresh_token`,`your_outlook_access_token`,`your_open_ai_key`,`your_email@example.com`,`your_email_password`,)
 with your actual credentials . This README.md file will help users understand your project quickly and get started with setting it up.
