@@ -43,14 +43,20 @@ This repository contains a Node.js tool for parsing and managing emails from Gma
   - Automatically categorizes and responds to emails based on content.
 
 - ** labelEmail(emailContent: string)**
+- 
       - Description: Labels the provided email content with a relevant category.
+  
   Parameters:
+  
       - emailContent: String containing the email content to be analyzed.
         Returns: A string representing the label (Interested, Not Interested, More information).
   
 -** generateResponse(label: string, emailContent: string)**
+
       - Description: Generates a response based on the labeled category and original email content.
+      
   Parameters:
+  
       - label: String representing the category label (Interested, Not Interested, More information).
       - emailContent: String containing the original email content.
       - Returns: A string containing the generated response based on the label and email content.
